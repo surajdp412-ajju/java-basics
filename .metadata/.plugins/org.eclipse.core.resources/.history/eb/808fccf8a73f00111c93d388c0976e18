@@ -1,0 +1,27 @@
+// Interface keyword //
+
+package OOPS;
+
+public class MedicalClass implements Student{
+
+	
+	public void displayName() {
+		System.out.println("Hello, We are from Medical Department");
+				
+	}
+
+	
+	public void getStudentNumber() {
+		
+		System.out.println("We are 140 Students");
+	}
+
+	
+	public void getStandard() {
+		
+		
+	}
+
+	}
+
+}

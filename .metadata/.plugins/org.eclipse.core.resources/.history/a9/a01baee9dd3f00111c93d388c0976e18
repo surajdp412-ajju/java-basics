@@ -1,0 +1,13 @@
+package String;
+
+public class StringMethodPartIII {
+
+	public static void main(String[] args) {
+		// String replace method //
+		
+		String texrt = "Hello Team";
+		
+
+	}
+
+}

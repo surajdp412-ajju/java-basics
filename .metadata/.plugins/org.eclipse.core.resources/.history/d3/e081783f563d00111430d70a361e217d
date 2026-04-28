@@ -1,0 +1,42 @@
+
+public class JAVALoops {
+
+	public static void main(String[] args) {
+		
+		// for auto completing the loops always write the loop type and press ctrl + space + enter //
+		
+		// for loop //
+		
+		/*for (int i = 0; i < 15; i++) { // for loop has three parts ( initialization; condition ; increment/decrement) //
+			System.out.println(i);	
+		}*/
+		
+		// while loop //
+		
+		/*int i = 0; // need to define the variable before starting the loop //
+		
+		while (i <=10) { //while loop ( condition ) // 
+			System.out.println(i);
+		i++; // after the statement is execute we can either increment/decrement the loop 			
+		}
+
+		while (true){ //  as the condition is always true it will be a infinite loop//
+			System.out.println(i);
+			i++;
+		} */
+		
+		// do while loop // 
+		
+		int j = 0; // need to define the variable before starting the loop //
+		
+		do {
+			System.out.println(j);
+		} while (j == 0); // while ( condition ) to execute the do loop // 
+		
+		
+		
+		
+
+	}
+
+}

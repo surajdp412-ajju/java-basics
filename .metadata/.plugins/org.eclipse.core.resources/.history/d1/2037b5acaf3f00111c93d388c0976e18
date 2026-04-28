@@ -1,0 +1,10 @@
+package Array;
+
+public class TestArray {
+
+	public static void main(String[] args) {
+		
+		int arrayOne[] = new int [10]; // here array is int data type and it can store upto 10 values //
+	}
+
+}

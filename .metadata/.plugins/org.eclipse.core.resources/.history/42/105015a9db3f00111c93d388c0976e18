@@ -1,0 +1,18 @@
+package String;
+
+public class StringMethodPartII {
+
+	public static void main(String[] args) {
+		// String equals method // 
+		
+		String text1 = "TechTraning";
+		
+		String text2 = "TechTraning";
+		
+		String text3 = 'TechTraining';
+		
+		
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package ExceptionalHandling;
+
+public class FinalBlock {
+
+	public static void main(String[] args) {
+		
+		try{		
+		String text = "Suraj";
+		System.out.println(text);
+		} finally{
+			System.out.println("Hi, I am inside the finally Block");
+		}
+		
+	}
+
+}

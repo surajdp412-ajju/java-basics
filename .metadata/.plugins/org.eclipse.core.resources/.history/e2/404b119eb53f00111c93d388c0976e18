@@ -1,0 +1,23 @@
+package String;
+
+public class StringIntro {
+
+	public static void main(String[] args) {
+		
+		
+		// delcare the string
+		
+		String name = "Suraj DP"; // defined by string literal
+		String name1 = "Suraj DP" //  here in java saved data pool the name and name1 are directed to same data that is "Suraj DP" // 
+		
+		
+		String country = new String ("India"); // defind using new object for a string
+		
+		
+		System.out.println(name);
+		System.out.println(country);
+		
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package OOPS;
+
+public interface Student { //  interface is created by right click and selecting interface option and it should be declared using the interface keyword //
+
+	public static final String University ="";
+	
+	
+}

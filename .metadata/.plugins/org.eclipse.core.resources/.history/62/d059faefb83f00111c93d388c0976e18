@@ -1,0 +1,36 @@
+package String;
+
+public class StringIntro {
+
+	public static void main(String[] args) {
+		
+		
+		// delcare the string
+		
+		String name = "Suraj DP"; // defined by string literal recommended way
+		String name1 = "Suraj DP"; //  here in java saved data pool the name and name1 are directed to same data that is "Suraj DP" // 
+		String name2 = "suraj dp";
+		
+		String country = new String ("India"); // defined using new object for a string this is consume more memory 
+		String country1 = new String ("India"); // here both the strings are different as they are defined completely separate object // 
+		
+		
+		/*System.out.println(name);
+		System.out.println(name1);
+		System.out.println(country); */
+		
+		// Comparison of the strings //
+		
+		System.out.println(name.equals(name1));
+		System.out.println(name.equals(name2)); // here value is false as captial is present
+		
+		// to make comparison avoiding the capital and small one use this //
+		
+		System.out.println(name.equalsIgnoreCase(name2));
+		
+		System.out.println(country.equals(country1));
+		
+
+	}
+
+}

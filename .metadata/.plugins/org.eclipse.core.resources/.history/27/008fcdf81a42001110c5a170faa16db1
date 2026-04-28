@@ -1,0 +1,15 @@
+package ListInterface;
+
+import java.util.ArrayList;
+
+public class ListDemo {
+
+	public static void main(String[] args) {
+		
+		List l1 = new ArrayList();
+		
+		
+
+	}
+
+}

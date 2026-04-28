@@ -1,0 +1,15 @@
+// Encapsulation in OOPS // 
+
+package OOPS;
+
+public class BankLoan {
+	
+	private String name; // we have defined these variables as private so that outer cannot see these values // 
+	private int age;
+	private int amount;
+	
+	
+	
+	
+
+}

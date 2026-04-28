@@ -1,0 +1,20 @@
+package String;
+
+public class StringIntro {
+
+	public static void main(String[] args) {
+		
+		
+		// delcare the string
+		
+		String name = "Suraj DP";
+		
+		String country = new String ("India");
+		
+		System.out.println(name);
+		System.out.println(country);
+		
+
+	}
+
+}

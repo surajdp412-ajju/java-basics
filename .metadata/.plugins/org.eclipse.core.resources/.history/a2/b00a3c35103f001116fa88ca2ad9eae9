@@ -1,0 +1,13 @@
+// Abstract Class //
+
+package OOPS;
+
+public class Circle extends Shape{
+
+	@Override
+	public void displayshape() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

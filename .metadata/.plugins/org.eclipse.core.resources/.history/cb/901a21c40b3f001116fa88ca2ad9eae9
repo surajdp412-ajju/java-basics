@@ -1,0 +1,24 @@
+package OOPS;
+
+public class BMW extends Car { // here we are setting up inheritance b/w BMW and Cars so we have used "extends" keyword//
+	// here the BMW is a child class and Car is the parent class // 
+	
+	/*static String name = "BMW";*/
+	
+	String name = "BMW";
+	
+	public void getName(){
+		System.out.println(name);
+		
+	}
+	
+	
+	public static void main(String[]args){
+		
+		Car car = new Car();// here we are able to create a object in the parent class //
+		System.out.println(name);// printing name of the car //
+		car.run();// calling the method of the parent class here we can see the code reusability as well // 
+	
+	}
+	
+}

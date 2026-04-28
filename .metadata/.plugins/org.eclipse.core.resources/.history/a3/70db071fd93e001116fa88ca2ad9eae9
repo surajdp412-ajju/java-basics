@@ -1,0 +1,17 @@
+// Static and Keywords in Java // 
+
+public class CounterClass {
+	
+	int i = 0;
+	static int j = 0; // here we have made j variable static //
+
+	public static void main(String[] args) {
+		
+		CounterClass counter = new CounterClass();
+		
+		System.out.println(counter.i);
+		System.out.println(CounterClass.j);
+		
+	}
+
+}

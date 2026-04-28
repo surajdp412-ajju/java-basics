@@ -1,0 +1,28 @@
+package Array;
+
+public class PassArrayToMethod {
+	
+	// here we are creating a method which is accepting array as a parameter and we are performing by doing implementation //  
+	
+	public static void findMin(int arrayOne[]){
+		
+		int min = arrayOne[0];
+		
+		for(int i=1; i < arrayOne.length; i++ ){
+			
+			if(min>arrayOne[i]){
+				min = arrayOne[i];
+			}
+		}
+		
+		System.out.println("Minimum Element is " + min);
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

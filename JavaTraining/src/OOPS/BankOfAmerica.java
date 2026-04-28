@@ -1,0 +1,11 @@
+// Method Overriding// 
+
+package OOPS;
+
+public class BankOfAmerica extends Bank {
+	
+	public int getInterest(){// the same method as parent class //
+		return 7;
+	}
+
+}

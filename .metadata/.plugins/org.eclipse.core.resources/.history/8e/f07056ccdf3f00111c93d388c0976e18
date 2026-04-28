@@ -1,0 +1,45 @@
+package String;
+
+public class StringMethodPartIII {
+
+	public static void main(String[] args) {
+		// String replace method //
+		
+		/*String text = "Hello Team";*/
+		String sample = "His name is John and he is a man";
+		
+		/*String text1 = text.replace("e", "a");
+		String sample1 = sample.replace("is", "was"); // replacing the sub string // 
+		
+		System.out.println(text1);
+		System.out.println(sample1);*/
+		
+		
+		// String split method // 
+		
+		/*String[] sampletest = sample.split("is");
+		
+		System.out.println(sample);
+		
+		for ( int i = 0; i < sampletest.length ; i++){ // to print all the values in the string used for loop //
+			
+			System.out.println(sampletest[i]);
+	
+		}*/
+		
+		
+		// String StartsWith method //
+		
+		System.out.println(sample.startsWith("name"));
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package OOPS;
+
+public interface Student { //  interface is created by right click and selecting interface option and it should be declared using the interface keyword //
+
+	public static final String University ="University of New York"; // final should be only present in interface // 
+	
+	public void displayName(); //  here we are not adding the keyword abstract still the it is considered as abstract as all the methods declared will be abstract in the interface class //
+	
+	public void getStudentNumber();
+	
+	public void getStandard();
+	
+	// to implement the interface we need to define new class and implement it //
+	
+}

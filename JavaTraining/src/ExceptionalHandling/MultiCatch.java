@@ -1,0 +1,32 @@
+package ExceptionalHandling;
+
+public class MultiCatch {
+
+	public static void main(String[] args) {
+		
+		// Multi Catch method //
+		
+		
+		try {
+		int value = 100;
+		int result = value/0;
+		
+		String text = null; // only one exception at a time // 
+		int lenght = text.length();
+		
+		} catch(ArithmeticException e){ // specific exception finder
+			
+			System.out.println("Declared Specific Exception");
+			e.printStackTrace();
+			
+		} catch(Exception e){ // generic exception finder
+			
+			System.out.println("Generic Catch Block");
+			
+		}
+		
+		// as specific exception finder is present it will not execute the generic one // 
+
+	}
+
+}

@@ -1,0 +1,13 @@
+// Constructors in Java //
+
+public class Students {
+	
+	public Students(){ // name of the constructor should be same as class and this is the body of the constructor //
+		System.out.println("Hello, I am inside a constructor");
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

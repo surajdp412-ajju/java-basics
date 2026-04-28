@@ -1,0 +1,19 @@
+
+public class JAVALoops {
+
+	public static void main(String[] args) {
+		
+		/*for (int i = 0; i < 15; i++) { // for loop has three parts ( initialization; condition ; increment/decrement) //
+			System.out.println(i);
+			
+		}*/
+		
+		while (en.hasMoreElements()) { // for auto completing the loops always write the loop type and press ctrl + space + enter //
+			type type = (type) en.nextElement();
+			
+		}
+
+
+	}
+
+}

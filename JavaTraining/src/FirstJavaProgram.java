@@ -1,0 +1,35 @@
+
+public class FirstJavaProgram {
+	
+	static int varSec = 98765;
+	
+	public static void firstMethod(){
+		
+	
+		// types of varibles //
+		
+		
+		int number = 12345;
+		
+		boolean flag = true;
+		char character = 'A';
+		String city = "newyork";
+		
+		long phonenumber = 1234567890L; 
+		
+		double decimalvalue = 234.43D;
+		
+		System.out.println(number); // for full print line type syso and ctrl + space //
+		System.out.println(city);
+		System.out.println(varSec);
+		
+	}
+
+	public static void main(String[] args) {
+		FirstJavaProgram.firstMethod();
+		System.out.println(varSec);
+		
+
+	}
+
+}

@@ -1,0 +1,19 @@
+// This is multilevel inheritance //
+
+package OOPS;
+
+public class X3 extends BMW {
+	
+	static String model = "X3";
+
+	public static void main(String[] args) {
+		
+		BMW bmw = new BMW();
+		
+		System.out.println("Model is " + model );
+		System.out.println("Brand is " + bmw.name);
+		System.out.println("Behaviour is ");
+		bmw.run(); //  here we are fetching the first parent class that is Car from BMW and this is multiple inheritance //
+	}
+
+}

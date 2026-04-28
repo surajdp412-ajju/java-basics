@@ -1,0 +1,23 @@
+// This Keyword in Java//
+
+
+public class StudentDemo {
+	
+	int rollnumber;
+	String name;
+	String Standard;
+	
+	public StudentDemo(int i, String , String s){
+		rollnumber = i;
+		name = n;
+		Standard = s;
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

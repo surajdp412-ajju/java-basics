@@ -1,0 +1,20 @@
+package ListInterface;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+		
+		ArrayList list = new ArrayList<Integer>(); // here the <defines the data type of array list>
+		
+		list.add(12);
+		list.add(42);
+		list.add(62);
+		list.add(12);
+		
+		System.out.println(list);
+
+	}
+
+}

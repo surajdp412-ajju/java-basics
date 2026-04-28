@@ -1,0 +1,44 @@
+package Array;
+
+public class TestArray {
+
+	public static void main(String[] args) {
+		
+		// here we are defining the arrary size first and then the values //
+		
+		
+		int arrayOne[] = new int [10];// here array is int data type and it can store upto 10 values //
+		
+		arrayOne[0] = 12; // here we are defining the values inside the array // 
+		arrayOne[1] = 13;
+		arrayOne[2] = 14;
+		arrayOne[3] = 15;
+		arrayOne[4] = 25;
+		arrayOne[5] = 26;
+		arrayOne[6] = 27;
+		arrayOne[7] = 28;
+		
+		// to access the value of the array
+		
+		System.out.println(arrayOne[4]);
+		
+		// to access all the values of the array
+		
+		for(int i = 0; i < arrayOne.length; i++){
+			System.out.println(arrayOne[i]);
+		}
+		
+		// other way to define the array here we are defining size along with the values at the same time // 
+		
+		int arrayTwo[] = {10,20,30,40,50,60};
+		
+		// to print size of the array
+		
+		System.out.println("Size of Secound array: " + arrayTwo.length);
+		
+		
+		
+	}
+	
+
+}

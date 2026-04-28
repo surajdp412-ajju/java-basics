@@ -1,0 +1,21 @@
+package String;
+
+public class StringBufferIntro {
+	
+	public static void main(String[] args){
+		
+		String name = "Suraj";
+		name.concat("DP");
+		
+		System.out.println(name);
+		
+		StringBuffer name1 = new StringBuffer("Suraj");
+		name1.append("DP");
+		
+		System.out.println(name1);
+		
+		
+		
+	}
+
+}

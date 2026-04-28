@@ -1,0 +1,9 @@
+// Abstract class //
+
+package OOPS;
+
+abstract public class Shape {
+	
+	abstract public void displayshape(); // no implementation is available for this method //
+
+}
