@@ -1,0 +1,41 @@
+package String;
+
+public class StringMethodPartIV {
+
+	public static void main(String[] args) {
+		// String substring method //
+		
+		String text = "United State";
+		
+		/*System.out.println(text.substring(5));// only begin point is defined  
+		System.out.println(text.substring(4,8));*/ // which has both begin and end points defined //
+
+		// String to CharArray method //
+		
+		/*char[] charArray = text.toCharArray();
+		System.out.println("Main String is : " + text );
+		
+		for (int i = 0 ; i < charArray.length ; i++){
+			
+			System.out.println(charArray[i]);
+		}*/
+		
+		// String toLowerCase/toUpperCase method //
+		
+		/*System.out.println(text.toLowerCase());
+		System.out.println(text.toUpperCase());*/
+		
+		// String trim method //
+		
+		String text1 = "My name is                           ";
+		String text2 = "                                Suraj";
+		
+		System.out.println(text1+text2);
+		System.out.println(text1.trim()+" "+text2);
+		System.out.println(text1.trim()+" "+text2.trim());
+		
+		
+		
+	}
+
+}

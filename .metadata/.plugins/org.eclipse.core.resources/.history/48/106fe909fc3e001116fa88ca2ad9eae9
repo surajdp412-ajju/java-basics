@@ -1,0 +1,26 @@
+// Method Overloading //
+
+package OOPS;
+
+public class Addition {
+	
+	public void addValues(int a, int b){ // addValues is the method to add a and b //
+		int c = a + b;
+		System.out.println("Addition is: " + c);
+		
+	}
+	
+	public void addValues(int a, int b, int c){// here we are adding one more parameter c to overload a method //
+		int d = a + b + c;
+		System.out.println("Addition is: " + d);
+	}
+	
+	// By Changing the return type //
+	
+	public double addValues(double a, double b){// here were are changing the type from void to double//
+		double c = a + b;
+		return c;
+		
+	}
+
+}

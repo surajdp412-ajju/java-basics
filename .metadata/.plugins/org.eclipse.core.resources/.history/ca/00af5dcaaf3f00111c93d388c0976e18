@@ -1,0 +1,25 @@
+package Array;
+
+public class TestArray {
+
+	public static void main(String[] args) {
+		
+		int arrayOne[] = new int [10];// here array is int data type and it can store upto 10 values //
+		
+		arrayOne[0] = 12; // here we are defining the values inside the array // 
+		arrayOne[1] = 13;
+		arrayOne[2] = 14;
+		arrayOne[3] = 15;
+		arrayOne[4] = 25;
+		arrayOne[5] = 26;
+		arrayOne[6] = 27;
+		arrayOne[7] = 28;
+		
+		// to access the value of the array
+		
+		System.out.println(arraryOne[4]);
+		
+	}
+	
+
+}

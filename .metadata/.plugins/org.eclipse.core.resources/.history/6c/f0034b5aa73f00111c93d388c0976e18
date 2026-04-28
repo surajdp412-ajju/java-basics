@@ -1,0 +1,12 @@
+// interface keyword // 
+
+package OOPS;
+
+public class EngineeringClass {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

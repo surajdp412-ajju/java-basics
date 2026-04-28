@@ -1,0 +1,61 @@
+
+public class SecondJavaClass {
+
+	public static void main(String[] args) {
+
+
+		String str1 = "Hello";
+		String str2 = "Team";
+		int a = 200;
+		int b = 300;
+		
+		
+		/*System.out.println(str1 + " " + str2);
+		System.out.println( a + b);
+		System.out.println( a + b + str1 + str2 );
+		System.out.println( str1 + str2 + a + b);// the addition takes place from left to right so it has assumed the complete variables as string and not added the integers//
+		*/
+		
+		/*if ( a > 1000){
+			System.out.println(" A is greater than 1000");
+		} else { // doesn't requires any condition
+			System.out.println(" A is less than 1000");
+		}*/
+		
+		/*if ( a == 100){ // to compare the integers need to use " == " //
+			System.out.println("A is 100");
+		} else if ( a == 200){ // else if requires a condition to work
+			System.out.println(" A is 200");
+		} else if ( a == 300){
+			System.out.println("A is 300");
+		} else { // can be used or not required as well
+			System.out.println(" Value doesn't present ");
+		}*/
+		
+		int day = 4;
+		
+		switch (day){ // day is the expression that will be compared to define value //
+		case 1: // expression data type and case data type should always match here it is int //
+			System.out.println(" Today is Monday");
+			break;
+		case 2:
+			System.out.println(" Today is Tuesday");
+			break;
+		case 3:
+			System.out.println(" Today is Wednesday");
+			break;
+		case 4:
+			System.out.println(" Today is Thursday");
+			break;
+		case 5:
+			System.out.println(" Today is Friday");
+				
+		default:
+			System.out.println(" Heyyyyyyyyyy!!!!!! It's Weekend");
+			break;
+		}
+		
+		
+	}
+
+}

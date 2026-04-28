@@ -1,0 +1,25 @@
+package String;
+
+public class StringMethodPartII {
+
+	public static void main(String[] args) {
+		
+		// String equals method // 
+		
+		String text1 = "TechTraning";
+		
+		/*String text2 = "TechTraning";
+		
+		String text3 = "techtraning";
+		
+		System.out.println(text1.equals(text2));
+		System.out.println(text1.equals(text3));
+		System.out.println(text1.equalsIgnoreCase(text3));*///  this is to ingnore the case sensitive less // 
+		
+		// String index method //
+		
+		System.out.println(text1.indexOf("java"));
+
+	}
+
+}

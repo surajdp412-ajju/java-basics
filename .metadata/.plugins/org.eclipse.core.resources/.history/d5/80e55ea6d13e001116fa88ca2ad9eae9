@@ -1,0 +1,13 @@
+
+public class Dog { // to define the state of the class that is Dog we are adding few variables that are name, breed, height etc which also acts as a behavior of the class (collection of objects)//
+	
+	String name = "Jacky";
+	String breed = "BullDog";
+	int height = 4;
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

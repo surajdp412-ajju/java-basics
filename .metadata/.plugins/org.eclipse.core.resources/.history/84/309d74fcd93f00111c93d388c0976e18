@@ -1,0 +1,25 @@
+package String;
+
+public class StringMethodPartI {
+
+	public static void main(String[] args) {
+		
+		String text = "Learning is the Key";
+		
+		// String charAt method //
+		
+		/*char ch = text.charAt(12);
+		
+		System.out.println(text.charAt(5));
+		System.out.println(ch);
+		
+		System.out.println(text.charAt(50)); */
+		
+		// String concat method //
+		
+		
+		
+
+	}
+
+}

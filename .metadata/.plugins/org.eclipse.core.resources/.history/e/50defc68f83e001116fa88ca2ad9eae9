@@ -1,0 +1,12 @@
+// This is multilevel inheritance //
+
+package OOPS;
+
+public class X3 extends BMW {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

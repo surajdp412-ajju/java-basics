@@ -1,0 +1,9 @@
+// Static and Keywords in Java // 
+
+public class CounterClass {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

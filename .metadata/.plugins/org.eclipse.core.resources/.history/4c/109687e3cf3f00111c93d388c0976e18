@@ -1,0 +1,30 @@
+package String;
+
+public class StringBufferIntro {
+	
+	public static void main(String[] args){
+		
+		String name = "Suraj"; //  declaring with thr help of the string, literal or string object is immutable // 
+		name.concat("DP"); //  here concat doesn't work because string is in non-muttable //
+		
+		/*System.out.println(name);*/
+		
+		// append method // 
+		
+		StringBuffer name1 = new StringBuffer("Suraj");
+		/*name1.append(" D P"); // string defined with the help of the string buffer is a muttable string so we are seeing the full name // 
+		
+		System.out.println(name1);*/
+		
+		// insert method //
+		
+		name1.insert(4, " DP ");
+		
+		System.out.println(name1);
+		
+		
+		
+		
+	}
+
+}

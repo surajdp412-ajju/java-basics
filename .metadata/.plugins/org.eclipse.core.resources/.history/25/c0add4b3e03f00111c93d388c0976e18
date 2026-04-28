@@ -1,0 +1,19 @@
+package String;
+
+public class StringMethodPartIV {
+
+	public static void main(String[] args) {
+		// String substring method //
+		
+		String text = "United State";
+		
+		/*System.out.println(text.substring(5));// only begin point is defined  
+		System.out.println(text.substring(4,8));*/ // which has both begin and end points defined //
+
+		// String to CharArray method //
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+// Encapsulation in OOPS // 
+
+package OOPS;
+
+public class BankLoan {
+	
+	private String name; // we have defined these variables as private so that outer cannot see these values, if any class try to extend this class it cannot access these variables as they are private// 
+	private int age;
+	private int amount;
+	
+	// now we are defining the setter for these values // 
+	
+	public void setName(String name){
+		this.name = name;
+	}
+	public void setage(int age){
+		this.age = age;
+	}
+	public void setamount(int amount){
+		this.amount = amount;
+	}
+	
+	
+	
+
+}

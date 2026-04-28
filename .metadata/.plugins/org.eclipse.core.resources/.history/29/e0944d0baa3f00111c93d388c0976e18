@@ -1,0 +1,15 @@
+// Encapsulation in OOPS // 
+
+package OOPS;
+
+public class BankLoan {
+	
+	private String name;
+	private int age;
+	private int amount;
+	
+	
+	
+	
+
+}

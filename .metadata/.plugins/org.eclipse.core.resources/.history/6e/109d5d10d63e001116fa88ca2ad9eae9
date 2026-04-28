@@ -1,0 +1,32 @@
+// Constructors in Java //
+
+
+
+public class Students {
+	
+	// This is a Default Constructor //
+	
+	public Students(){ // name of the constructor should be same as class and this is the body of the constructor and it should not have any data type //
+		System.out.println("Hello, I am inside a constructor");
+		System.out.println("Hello, I am second Method");
+	} // this is a default constructor which will be called and every statement inside this will be executed //
+
+	// This is a Parameterized Constructor //
+	
+	int rollNumber; // we are defining the parameters before the constructor //
+	String name;
+	
+	public Students(int i, String n){ //  we have already defined the same a Default constructor now inside we are defining the parameters to make it Parameterized constructor//
+		
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		Students std = new Students(); // constructor is called inside the object of the class//
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+// These contains OOPS concepts //
+
+// Inheritance - code reusability and method overriding and polymorphisim //
+
+package OOPS;
+
+public class Car {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

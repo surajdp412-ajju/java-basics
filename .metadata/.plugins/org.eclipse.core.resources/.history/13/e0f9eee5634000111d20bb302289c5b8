@@ -1,0 +1,24 @@
+package ExceptionalHandling;
+
+public class NestedTryCatch {
+
+	public static void main(String[] args) {
+		
+		try {
+			
+			System.out.println("First try Block");
+			
+			String text = null;
+			System.out.println(text.length());
+					
+		} catch (Exception e){
+			
+			System.out.println("End of First try Block");
+			e.printStackTrace();
+		}
+		
+		
+
+	}
+
+}

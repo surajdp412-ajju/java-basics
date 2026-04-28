@@ -1,0 +1,33 @@
+// These contains OOPS concepts //
+
+// Inheritance - code reusability and method overriding and polymorphisim //
+
+// Super Keyword //
+
+package OOPS;
+
+public class Car {
+	
+	Car(){ //  we are creating a constructor class for Car //
+		
+		System.out.println("Creating Constructor of Car Class");
+	
+	}
+	
+	public final void setWheels(){
+		System.out.println("Only 4 Wheels are allowed ");
+	}
+	
+	String name = "Car Segment ";
+	
+	public void run(){
+		
+		System.out.println("Car is Running");
+
+	
+		
+		
+
+	}
+
+}

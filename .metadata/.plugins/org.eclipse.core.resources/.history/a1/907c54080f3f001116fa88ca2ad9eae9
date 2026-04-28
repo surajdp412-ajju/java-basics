@@ -1,0 +1,7 @@
+// Abstract class //
+
+package OOPS;
+
+public class Shape {
+
+}

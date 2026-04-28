@@ -1,0 +1,42 @@
+package ExceptionalHandling;
+
+public class SampleException {
+
+	public static void main(String[] args) {
+		
+		// Arithmetic exception //
+		
+	/*	try {
+		
+		int value = 100;
+		
+		int result = value/0;
+		
+		System.out.println(result);
+				
+		} catch(Exception e){ // we are passing exception and variable e to catch the exception error in the code // 
+
+			System.out.println(e); //  to see what is exception//
+			System.out.println("Please choose another value to Divide the interger");
+			e.printStackTrace(); //  to print complete exception message 
+		}*/
+		
+		// null pointer exception - operation on null object // 
+		
+		String text = null;
+		
+		try {
+			
+			System.out.println(text.length());
+			
+		} catch(Exception f){
+			
+			System.out.println(f);
+			System.out.println("Please define something in the String value");
+			f.printStackTrace();
+		}
+		
+		
+	}
+
+}

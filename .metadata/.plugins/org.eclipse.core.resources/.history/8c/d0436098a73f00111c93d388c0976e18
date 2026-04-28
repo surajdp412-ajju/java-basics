@@ -1,0 +1,27 @@
+// interface keyword // 
+
+package OOPS;
+
+public class EngineeringClass implements Student{ // here implements links into the interface //
+
+	public void displayName() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void getStudentNumber() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void getStandard() {
+		// TODO Auto-generated method stub
+		
+	}
+
+// user must implement all the methods which is present inside the interface // 
+		
+
+	}
+
+}

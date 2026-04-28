@@ -1,0 +1,21 @@
+package String;
+
+public class StringIntro {
+
+	public static void main(String[] args) {
+		
+		
+		// delcare the string
+		
+		String name = "Suraj DP"; // defined by string literal
+		
+		String country = new String ("India"); // defind using new object for a string
+		
+		
+		System.out.println(name);
+		System.out.println(country);
+		
+
+	}
+
+}

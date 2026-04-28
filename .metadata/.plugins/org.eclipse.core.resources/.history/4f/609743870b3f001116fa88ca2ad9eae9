@@ -1,0 +1,23 @@
+// These contains OOPS concepts //
+
+// Inheritance - code reusability and method overriding and polymorphisim //
+
+// Super Keyword //
+
+package OOPS;
+
+public class Car {
+	
+	String name 
+	
+	public void run(){
+		
+		System.out.println("Car is Running");
+
+	
+		
+		
+
+	}
+
+}

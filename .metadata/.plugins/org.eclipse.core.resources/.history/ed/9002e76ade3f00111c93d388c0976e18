@@ -1,0 +1,20 @@
+package String;
+
+public class StringMethodPartIII {
+
+	public static void main(String[] args) {
+		// String replace method //
+		
+		String text = "Hello Team";
+		String sample = "His name is John and he is a man";
+		
+		String text1 = text.replace("e", "a");
+		String sample1 = sample.replace("is", "was"); // replacing the sub string // 
+		
+		System.out.println(text1);
+		System.out.println(sample1);
+		
+
+	}
+
+}

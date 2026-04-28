@@ -1,0 +1,53 @@
+// Encapsulation in OOPS // 
+
+package OOPS;
+
+public class BankLoan {
+	
+	private String name; // we have defined these variables as private so that outer cannot see these values, if any class try to extend this class it cannot access these variables as they are private// 
+	private int age;
+	private int amount;
+	
+	// now we are defining the setter for these values // 
+	
+	public void setName(String name){
+		this.name = name;
+	}
+	public void setage(int age){
+		if(age>=18 && age<=50){
+		this.age = age;
+		} else {
+			System.out.println("Please enter the Valid Age");
+		}
+	}
+	public void setamount(int amount){
+		if(amount>=1000 && amount<= 100000000 ){
+		this.amount = amount;
+		} else {
+			System.out.println("Please enter the Valid amount between $1000 to $100000000");
+		}
+	}
+	
+	// with set methods we can set those values and with get methods we can get those values // 
+	
+	// after defining both the private and setter this class becomes write only class // 
+
+	// to read these we have written these commands below // 
+	
+	// set methods will be read only class and get method will be write only class // 
+	
+	public String getName(){
+		return name;
+	}
+	
+	public int getage(){
+		return age;
+	}
+	
+	public int getamount(){
+		return amount;
+	}
+	
+}
+
+

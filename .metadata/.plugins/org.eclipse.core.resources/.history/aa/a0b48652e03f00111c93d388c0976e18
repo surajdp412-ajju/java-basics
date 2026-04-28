@@ -1,0 +1,15 @@
+package String;
+
+public class StringMethodPartIV {
+
+	public static void main(String[] args) {
+		// String substring //
+		
+		String text = "United State";
+		
+		System.out.println(text.substring(5));// only begin point is defined  
+		System.out.println(text.substring(arg0, arg1));// which has both begin and end points defined //
+
+	}
+
+}

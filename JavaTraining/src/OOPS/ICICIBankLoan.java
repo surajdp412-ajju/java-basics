@@ -1,0 +1,24 @@
+// Encapsualtion in OOPS // 
+
+package OOPS;
+
+public class ICICIBankLoan extends BankLoan{
+
+	public static void main(String[] args) {
+		
+		BankLoan loan = new BankLoan();
+		
+		loan.setage(26);
+		loan.setName("Micahel John");
+		loan.setamount(1000000);
+		
+		System.out.println("Name is : " + loan.getName());
+		System.out.println("Age is : " + loan.getage());
+		System.out.println("Amount is : " + loan.getamount());
+		
+		
+		
+
+	}
+
+}

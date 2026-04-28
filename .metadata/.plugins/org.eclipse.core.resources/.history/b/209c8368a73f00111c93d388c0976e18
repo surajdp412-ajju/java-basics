@@ -1,0 +1,30 @@
+// interface keyword // 
+
+package OOPS;
+
+public class EngineeringClass implements Student{ // here implements links into the interface //
+
+	@Override
+	public void displayName() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getStudentNumber() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getStandard() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+		
+
+	}
+
+}
